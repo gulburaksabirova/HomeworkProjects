@@ -1,0 +1,15 @@
+button{
+    width:33%;
+    border: 30px solid darkslategrey;
+    font-size: 50px;
+    background-color: lightgrey;
+    border-radius:10px;
+    height:200px;
+}
+.fourthButton{
+    width:100%;
+    color:deeppink;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}

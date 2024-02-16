@@ -1,0 +1,18 @@
+body{
+    margin:0;
+}
+container{
+    display:block;
+    background-color:darkorange;
+    border: 7px solid grey;
+    width:auto;
+    height:auto;
+}
+h1{
+    text-align:center;
+    padding:0;
+}
+header{
+    border:7px solid grey;
+    background-color:lightgrey;
+}
