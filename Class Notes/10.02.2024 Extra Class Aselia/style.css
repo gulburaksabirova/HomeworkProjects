@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.jumbotron-container{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("https://5.imimg.com/data5/SELLER/Default/2021/9/OW/NW/XF/17251528/office-interior-designing-service.jpg");
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    padding:20px 0;
+}
+.navigation{
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-around;
+   margin-top:20px;
+}
+.navigation .logo{
+    font-size: 20px;
+    color:#4caf50;
+    font-size:50px;
+    font-weight:bold;
+}
+.navigation-menu ul{
+    list-style-type: none;
+    padding:0;
+}
+.navigation-menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+.navigation-menu ul li{
+    padding:10px 20px;
+    background-color: #4caf50;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+.jumbotron-callToAction{
+    padding:10px;
+}
+.jumbotron-callToAction-description{
+    color:white;
+}
+.jumbotron-callToAction-form{
+    display:flex;
+    flex-direction: column;
+}
+.jumbotron-callToAction-form input{
+    padding:10px 20px;
+    margin-bottom:5px;
+    outline:none;
+}
+.jumbotron-callToAction-form input::placeholder{
+    color:#4caf50;
+}
+.jumbotron-callToAction-form-btn-submit, .about-us-section button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border:none;
+}
+.about-us-section,.our-services{
+    padding:10px 20px;
+}
+.icons-wrapper{
+    width:70%;
+    padding:10px 0;
+    background-color: #89b286;
+    margin:auto;
+}
+.icons-wrapper img{
+    border:1px solid black;
+    padding:8px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:3px;
+}
+.process-bar-wrapper{
+    margin-bottom:20px;
+}
+.process-bar-wrapper, .bar{
+    height:3px;
+    background-color: black;
+    width:90%;
+    margin:auto;
+    position: relative;
+}
+.bar .circle{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top:-6px;
+}
+.first{
+    left:10px;
+}
+.second{
+    left:50%;
+}
+.third{
+    right:10px;
+}
+@media screen and (min-width:700px){
+    .navigation{
+        flex-direction: row;
+        height:10vh;
+    }
+    .navigation-menu ul{
+        display: flex;
+        gap:5px;
+
+    }
+    .navigation-menu ul li{
+        padding:10px 15px;
+    }
+    .jumbotron-callToAction{
+        display: flex;
+        flex-direction: column;
+        height:80vh;
+        justify-content: center;
+    }
+    .jumbotron-callToAction-description, .jumbotron-callToAction-form{
+        width:40%;
+        margin-left:70px;
+    }
+    .our-services{
+        display: flex;
+    }
+    .our-services .article{
+        width:80%;
+    }
+    .our-services h4{
+        padding:30px;
+    }
+    .process-description{
+        display: flex;
+        padding:10px;
+    }
+    .process-description article h4{
+        padding:0;
+    }
+    .process-description article:nth-child(2){
+        text-align: center;
+    }
+    .process-description article:nth-child(3){
+        text-align: right;
+    }
+}
+@media screen and (min-width:1100px){
+    .navigation-menu ul{
+        display: flex;
+        gap:10px;
+    }
+    .navigation-menu ul li{
+        padding:10px 20px;
+    }
+    .about-us-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    }
+  .about-us-section img {
+    height: 180px;
+  }
+  .about-us-section article {
+    width: 30%;
+    position: relative;
+  }
+  .about-us-section article button {
+    position: absolute;
+    bottom: 0;
+  }
+  .our-services {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+  }
+  .our-services .article {
+    width: 50%;
+  }
+  .icons-wrapper {
+    width: 20%;
+    margin: 0;
+  }
+}
