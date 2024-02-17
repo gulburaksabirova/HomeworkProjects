@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+.jumbotron{
+    height:100%;
+    background:linear-gradient(rgb(20,19,19), rgb(51,50,50));
+    display:flex;
+    justify-content: center;
+}
+.jumbotron-container{
+    width:90%;
+    margin:auto:
+}
+.navigation{
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color:green;
+    font-size:50px;
+    font-weight:bold;
+}
+.navigation-menu{
+
+}
+.navigation-menu ul{
+
+}
+.navigation-menu ul li{
+   display: inline-block;
+}
+.navigation-menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+.jumbotron-callToAction{
+   margin-top:15%;
+   width:80%;
+   color:white;
+}
+.jumbotron-callToAction h2{
+    font-size:3rem;
+}
+.jumbotron-callToAction p{
+    margin-top:30px;
+    width:75%;
+    font-size:1.5rem
+}
+.jumbotron-callToAction-form{
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.jumbotron-callToAction-form input{
+    margin-bottom:15px;
+    height:30px;
+    padding:10px;
+}
+.jumbotron-callToAction-btn-submit{
+    background-color: green;
+    border:none;
+    height:50px;
+    color:white;
+    font-size:larger;
+    border-radius:5px;
+    margin-bottom:40px;
+}
